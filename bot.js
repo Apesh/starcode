@@ -393,4 +393,4 @@ client.on('guildDelete', guild => {
   .setTimestamp()
 });
 
-client.login(ayarlar.token);
+client.login(process.env.BOT_TOKEN);
